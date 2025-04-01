@@ -1,5 +1,5 @@
 ---
-title: Precious Productions ent.
+title: Precious-Productions-ent.
 ---
 
 export const config = {
