@@ -214,3 +214,4 @@ export const debugConfig = {
       }
   ]
 }
+git clone
