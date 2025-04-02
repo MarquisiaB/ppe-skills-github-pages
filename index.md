@@ -2,13 +2,6 @@
 title: Precious-Productions-ent.
 ---
 
-export const config = {
-  homepage: "https://PreciousProductions.ent.github.io/PreciousProductions.ent.github.io",
-  scripts: {
-    predeploy: "npm run build",
-    deploy: "gh-pages -d build",
-  },
-};
 import React, { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -137,81 +130,3 @@ export default function ComedySpecials() {
     </div>
   );
 }
-// package.json configuration
-export const config = {
-  homepage: "https://Precious.ProductionsENT.github.io./Precious.ProductionsENT.github.io",
-  scripts: {
-    predeploy: "npm run build",
-    deploy: "gh-pages -d build",
-  },
-};
-
-// Debugger configuration
-export const debugConfig = {
-  version: "0.2.0",
-  configurations: [
-    {
-      type: "node",
-      name: "Run Current File",
-      request: "launch",
-      program: "${workspaceFolder}\\react.js",
-    },
-  ],
-};{
-  // Use IntelliSense to learn about possible attributes.
-  // Hover to view descriptions of existing attributes.
-  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-  "version"; "0.2.0",
-  "configurations"; [
-      
-      {
-          "name": "Launch Edge",
-          "request": "launch",
-          "type": "msedge",
-          "url": "http://localhost:8080",
-          "webRoot": "${workspaceFolder}"
-      },
-      {
-          "name": "Attach to Edge",
-          "port": 9222,
-          "request": "attach",
-          "type": "msedge",
-          "webRoot": "${workspaceFolder}"
-      },
-      {
-          "name": "Launch Chrome",
-          "request": "launch",
-          "type": "chrome",
-          "url": "http://localhost:8080",
-          "webRoot": "${workspaceFolder}"
-      },
-      {
-          "name": "Attach to Chrome",
-          "port": 9222,
-          "request": "attach",
-          "type": "chrome",
-          "webRoot": "${workspaceFolder}"
-      },
-      {
-          "name": "Launch via NPM",
-          "request": "launch",
-          "runtimeArgs": [
-              "run-script",
-              "debug"
-          ],
-          "runtimeExecutable": "npm",
-          "skipFiles": [
-              "<node_internals>/**"
-          ],
-          "type": "node"
-      },
-      
-      {
-          "type": "node",
-          "name": "Run Current File",
-          "request": "launch",
-          "program": "${workspaceFolder}\\react.js"
-      }
-  ]
-}
-git clone
